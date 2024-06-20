@@ -18,3 +18,5 @@ sorted_data = filtered_data.sort_values(['age'], ascending=[True])
 
 # TODO: Print the sorted data
 print(sorted_data)
+print(filtered_data)
+print(titanic_df)
