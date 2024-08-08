@@ -2,8 +2,8 @@
 import seaborn as sns
 import pandas as pd
 
-print(pd.__version__)
-print(sns.__version__)
+print('Pandas version', pd.__version__)
+print('Seaborn version', sns.__version__)
 
 # TODO: Load the Titanic dataset
 titanic_df = sns.load_dataset('titanic')
